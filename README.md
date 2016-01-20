@@ -32,6 +32,7 @@ twitter開発者アカウント
     oauth.accessToken=****************
     oauth.accessTokenSecret=****************
 
+
 2. nginxインストール
 3. tools/Rankings.java 161行目のjsonファイル出力先をnginxのhtmlフォルダに指定
 
