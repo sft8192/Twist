@@ -41,7 +41,7 @@ nginx
 1. nginxインストール、起動  
 2. tools/Rankings.java 161行目のjsonファイル出力先をnginxの公開ディレクトリに指定  
 3. 公開ディレクトリにindex.htmlを置く  
-4. ブラウザでhttp://localhost:8080を開く  
+4. ブラウザで<http://localhost:8080>を開く  
 
 ## UserDictionary
 
