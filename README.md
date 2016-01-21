@@ -26,7 +26,7 @@ nginx
 
 ## Usage
 
-srcフォルダ直下に以下の内容のtwitter4j.propertiesを作成
+1.srcフォルダ直下に以下の内容のtwitter4j.propertiesを作成
 
     debug=true
     oauth.consumerKey=****************
@@ -34,10 +34,10 @@ srcフォルダ直下に以下の内容のtwitter4j.propertiesを作成
     oauth.accessToken=****************
     oauth.accessTokenSecret=****************
 
-nginxインストール、起動  
-tools/Rankings.java 161行目のjsonファイル出力先をnginxの公開ディレクトリに指定  
-公開ディレクトリにindex.htmlを置く  
-ブラウザでlocalhost:8080を開く  
+2.nginxインストール、起動  
+3.tools/Rankings.java 161行目のjsonファイル出力先をnginxの公開ディレクトリに指定  
+4.公開ディレクトリにindex.htmlを置く  
+5.ブラウザでlocalhost:8080を開く  
 
 
 
