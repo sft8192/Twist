@@ -9,6 +9,9 @@ twitterのツイートをstormでワードカウントしてつぶやきビッ�
 2. Stormでワードカウントして、JSONで出力する
 3. D3jsでつぶやきビッグデータみたいなのを表示する
 
+* Eclipseを使ってこれをスタンドアロンでサクっと動作させることが可能です
+* 分散環境でも動きます、Apache Ambariを使用して6台で動作確認済
+
 ## Requirement
 
 twitter開発者アカウント
@@ -40,5 +43,9 @@ nginx
 3. 公開ディレクトリにindex.htmlを置く  
 4. ブラウザでlocalhost:8080を開く  
 
+## UserDictionary
 
+* resourses/dic.csvに除外したい単語(BOTが頻繁に使う単語とか)を入れておくとカウント対象外になる
+* resourses/user_dic.csvはwikipediaの見出しから作った辞書で、大量にあるので使用すると負荷がかかるため注意（未使用）
+* SplitBolt.javaあたりを見てもらうと読み込むユーザ辞書の設定が可能
 
