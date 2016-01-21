@@ -12,6 +12,14 @@ TWItterのツイートをSTormでワードカウントするプログラム
 
 twitter開発者アカウント
 
+srcフォルダ直下に以下の内容のtwitter4j.propertiesを作成
+
+    debug=true
+    oauth.consumerKey=****************
+    oauth.consumerSecret=****************
+    oauth.accessToken=****************
+    oauth.accessTokenSecret=****************
+
 nginx
 
 ## CreateAccount
@@ -26,18 +34,10 @@ nginx
 
 ## Usage
 
-1.srcフォルダ直下に以下の内容のtwitter4j.propertiesを作成
-
-    debug=true
-    oauth.consumerKey=****************
-    oauth.consumerSecret=****************
-    oauth.accessToken=****************
-    oauth.accessTokenSecret=****************
-
-2.nginxインストール、起動  
-3.tools/Rankings.java 161行目のjsonファイル出力先をnginxの公開ディレクトリに指定  
-4.公開ディレクトリにindex.htmlを置く  
-5.ブラウザでlocalhost:8080を開く  
+1. nginxインストール、起動  
+2. tools/Rankings.java 161行目のjsonファイル出力先をnginxの公開ディレクトリに指定  
+3. 公開ディレクトリにindex.htmlを置く  
+4. ブラウザでlocalhost:8080を開く  
 
 
 
