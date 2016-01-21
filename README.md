@@ -1,6 +1,7 @@
 # Twist
 
-TWItterのツイートをSTormでワードカウントするプログラム
+twitterのツイートをstormでワードカウントしてつぶやきビッグデータみたいなものを表示する
+![つぶやきビッグデータ](https://github.com/sft8192/images/blob/master/twist.png)
 
 ## Description
 
