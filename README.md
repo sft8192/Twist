@@ -46,6 +46,6 @@ nginx
 ## UserDictionary
 
 * resourses/dic.csvに除外したい単語(BOTが頻繁に使う単語とか)を入れておくとカウント対象外になる
-* resourses/user_dic.csvはwikipediaの見出しから作った辞書で、大量にあるので使用すると負荷がかかるため注意（未使用）
+* resourses/user_dic.csvはwikipediaの見出しから作った辞書、使用すると負荷がかかるため注意（未使用）
 * SplitBolt.javaあたりを見てもらうと読み込むユーザ辞書の設定が可能
 
